@@ -1,0 +1,9 @@
+https://stepik.org/lesson/1191234/step/1?unit=1204204
+https://proproprogs.ru/c_base/c_ustanovka-kompilyatora-gcc-i-visual-studio-code-na-os-windows
+https://www.youtube.com/watch?v=TGpYh9X1PYk&list=PLA0M1Bcd0w8w-mqVmBjt-2J8Z1gVmPZVz&index=3
+
+GCC: https://gcc.gnu.org
+MinGW: https://osdn.net/projects/mingw/
+mingw-get-setup.exe (если ссылка выше для MinGW недоступна): https://github.com/selfedu-rus/others
+VS Code: https://code.visualstudio.com
+

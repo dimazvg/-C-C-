@@ -1,0 +1,15 @@
+extansions:
+	C/C++
+	Code Runner
+
+Code Runner
+	Ctrl + Alt + N 	- for compile and run code
+	Ctrl + Shift + B	- for recompile (для перекомпиляции)
+	File > Preferenses > Settings > in search line "code runner run in terminal" ставим галки во вкладках User и Workspace
+				in search line "Run Code Configuration" > "Code-runner: Executor Map" -> Edit ...
+					в settings.json > "code-runner.executorMap": в параметре "c" добавляем -std=99
+				в settings.json "code-runner.runInTerminal": false  - для отсутствия печети лишней информации
+
+gcc -std=c99 -o outputfile sourcefile.c	- для компиляции по стандарту языка C99
+в разделей файлов в VS Code сверху кликаем на .vscode и в нём на tasks.json
+и в этом файле в args можно добавить аргумент "-std=c99", 
