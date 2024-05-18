@@ -13,3 +13,30 @@ Code Runner
 gcc -std=c99 -o outputfile sourcefile.c	- для компиляции по стандарту языка C99
 в разделей файлов в VS Code сверху кликаем на .vscode и в нём на tasks.json
 и в этом файле в args можно добавить аргумент "-std=c99", 
+
+
+
+======================================= русский язык ===============================================
+Может быть кому-то пригодится для отображения русского языка в окне запуска кода в Visual Studio.
+#include <locale.h>
+#include <cstdlib>
+В корне функции добавить -
+    setlocale(LC_ALL, "Russian"); // задаём русский текст
+    system("chcp 1251"); // настраиваем кодировку консоли
+
+русский язык в Windows в VS Code
+в терминале Powershell или cmd команда chcp - посмотерть текущую кодировку
+в VSCode внизу справа указана кодировка файла (UTF-8) - жмём на неё, 
+далее "Сохранить в кодировке" и там пишешь цифры той кодировки, которая у тебя в консоли и выбираешь в списке.
+
+UTF-8 в Visual Studio
+https://stackoverflow.com/questions/41335199/how-to-config-visual-studio-to-use-utf-8-as-the-default-encoding-for-all-project
+https://programforyou.ru/poleznoe/russkii-yazik-v-visual-studio-chto-delat-esli-nichego-ne-pomogaet
+
+
+
+
+
+
+
+
