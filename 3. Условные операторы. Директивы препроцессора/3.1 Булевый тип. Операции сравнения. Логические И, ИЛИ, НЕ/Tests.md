@@ -41,6 +41,7 @@ int main(void)
 }
 ```  
 
+* Варианты ответов:
   * res_1 == false
   * res_2 == true
   * res_3 == false
