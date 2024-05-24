@@ -20,7 +20,8 @@
 
 * **Подвиг 4.**  Пусть имеется следующее начало текста программы:  
 
-```const int max_size = 5;  
+```#include <stdio.h>
+const int max_size = 5;  
   
 #define SIZE    1  
 #define IS_CPP  
